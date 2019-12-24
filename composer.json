@@ -8,12 +8,14 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
-        "phpunit/phpunit": "^8.2"
+        "phpunit/phpunit": "^8.2",
+        "symfony/var-dumper": "^5.0"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SunAsterisk\\Chatwork\\": "src/"
+            "SunAsterisk\\Chatwork\\": "src/",
+            "Acme\\": "example/src"
         }
     },
     "autoload-dev": {
